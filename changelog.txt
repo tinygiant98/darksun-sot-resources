@@ -1,0 +1,24 @@
+2021-01-11
+- Compared headers and files between NWN:EE and Dark Sun. Differences in
+  classes.2da and baseitems.2da
+
+2021-01-12
+- Copied the following headers and values from NWN:EE classes.2da to
+  Dark Sun:
+    StatGainTable       MemorizesSpells    SpellbookRestricted   PickDomains
+    PickSchool          LearnScroll        Arcane                ASF
+    SpellcastingAbil    SpellTableColumn   CLMultiplier          MinCastingLevel
+    MinAssociateLevel   CanCastSpontaneously
+- Checked values (against NWN rules)
+  - Copied the nwn:ee file cls_stat_palema to darksun
+  - Copied the nwn:ee file cls_stat_dradis to darksun
+
+- Copied the following headers and values from NWN:EE baseitems.2da
+  to Dark Sun:
+         WeaponFocusFeat                     EpicWeaponFocusFeat
+         WeaponSpecializationFeat            EpicWeaponSpecializationFeat
+         WeaponImprovedCriticalFeat          EpicWeaponOverwhelmingCriticalFeat
+         EpicWeaponDevastatingCriticalFeat   WeaponOfChoiceFeat
+- Checked feat names whether the made sense (feat prefix + weapon suffix)
+- Checked headers of classes.2da and baseitems.2da between NWN:EE and Dark Sun
+  No differences.
