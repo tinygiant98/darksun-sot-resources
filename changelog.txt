@@ -1,10 +1,33 @@
+
+2020-01-23 race_feet_hfgiant.2da
+       
+
+2020-01-23 appearance.2da
+       * Copied appearance.2da from NWN:EE
+
+2020-01-23 racialtypes.2da
+       * Added new headers for NWN::EE compatibility: ExtraFeatsAtFirstLevel,
+       ExtraSkillPointsPerLevel, FirstLevelSkillPointsMultiplier, AbilitiesPointBuyNumber, NormalFeatEveryNthLevel, NumberNormalFeatsEveryNthLevel, SkillPointModifierAbility
+       * Copied all information from NWN racialtypes.2da to these columns
+       * Added HalfGiant, appearance set to half-orc, favored class to fighter, CRmodifier to 1 and namegentable to human.
+       * Added ThriKreen, appearance set to drider, favored class to fighter, CRmodifier to 1 and namegentable to gnome.
+
+2020-01-23 race_feat_gnome.2da
+       * Copied race_feat_gnome.2da from NWN:EE
+
+2020-01-23 race_feat_human.2da
+       * Copied race_feat_human.2da from NWN:EE 
+
+2020-01-23 Dark sun 2da Hak Change Log.txt
+       * Moved the log file to the parent directory
+
 2020-01-12  classes.2da
         * Added new headers for NWN:EE compatibility StatGainTable, MemorizesSpells, SpellbookRestricted, PickDomains, PickSchool, LearnScroll, Arcane, ASF, SpellcastingAbil, SpellTableColumn, CLMultiplier, MinCastingLevel, MinAssociateLevel, CanCastSpontaneously
-        * Added all information from NWN:EE classes.2da to these headers
+        * Added all information from NWN:EE classes.2da to these columns
 
 2020-01-12 baseitems.2da
         * Adden new headers for NWN:EE compatibility: WeaponFocusFeat, EpicWeaponFocusFeat, WeaponSpecializationFeat, EpicWeaponSpecializationFeat, WeaponImprovedCriticalFeat, EpicWeaponOverwhelmingCriticalFeat, EpicWeaponDevastatingCriticalFeat, WeaponOfChoiceFeat
-        * Added all information from NWN:EE baseitems.2da to these headers
+        * Added all information from NWN:EE baseitems.2da to these columns
 
 2020-01-12 cls_stat_dradis.2da
         * Copied this file from NWN:EE as it was required as a StatGainTable
