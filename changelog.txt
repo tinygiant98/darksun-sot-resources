@@ -1,6 +1,9 @@
 
-2020-01-23 race_feet_hfgiant.2da
-       
+2020-01-23 race_feat_thrikreen.2da
+       * Created, empty.
+
+2020-01-23 race_feat_hfgiant.2da
+       * Created, empty.
 
 2020-01-23 appearance.2da
        * Copied appearance.2da from NWN:EE
