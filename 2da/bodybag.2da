@@ -1,10 +1,10 @@
 2DA V2.0                                                        
                                                                 
       LABEL        Name      Appearance     
-0     default      6671      ****           
-1     Potion       66483     194            
-2     Scroll       66484     195              
-3     Treasure     66490     196            
-4     Body         66492     198            
-5     Bones        66493     199            
-6     Pouch        66494     200            
+0     default      30240     ****           
+1     Potion       30790     194            
+2     Scroll       30807     195              
+3     Treasure     33643     196            
+4     Body         35560     198            
+5     Bones        37008     199            
+6     Pouch        30250     200            
