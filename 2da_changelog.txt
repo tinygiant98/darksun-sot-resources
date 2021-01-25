@@ -1,3 +1,16 @@
+2020-01-25 placeableobjsnds.2da
+       * copied from NWN:EE
+
+2020-01-25 lightcolor.2da
+       * copied from NWN:EE
+
+2020-01-25 bodybag.2da
+       * checked the Name column, set to something sensable
+
+2021-01-25 placeables.2da
+       * Copied from NWN:EE
+       * blanked out StrRef
+
 2021-01-24 appearance.2da
        * Added Mul (871)
        * Added HalfGiant (872)
