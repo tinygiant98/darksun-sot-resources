@@ -1,0 +1,208 @@
+2021-01-24 appearance.2da
+       * Added Mul (871)
+       * Added HalfGiant (872)
+       * Added ThriKreen (873)
+       * Blanked out STRING_REF for almost all creatures
+
+2021-01-24 race_feat_gnome.2da
+       * Deleted file
+
+2021-01-24 race_feat_hforc
+       * Deleted file
+
+2021-01-24 race_feat_mul.2da
+       * Created, empty
+
+2021-01-24 racialtypes.2da
+       * Updated Name, ConverName, ConverNameLower, Description and Biograpy to ds_ceppsion.tlk for Dwarf, Elf, Halfling, Halfelf, Mul, Human, Dragon, Shapechanger
+       * Changed label for MUL to Mul
+       * Changed abbrev for Mul to Mu
+       * Changed FeatsTable for Mul to RACE_FEAT_MUL
+       * Changed appearance for Mul to 871
+       * Changed appearance for HalfGiant to 872
+       * Changed appearance for ThriKreen to 873
+       * Deleted (replace with DELETED, Abrev, ****) Gnome, Abberation, Animal, Beast, Construct, Humanoid_*, Elemental, Fey, Giant, Magical_Beast, Outsider, Undead, Vermin, Ooze
+
+2021-01-24 creaturesize.2da
+       * Copied from NWN:EE
+
+2021-01-24 bodybag.2da
+       * Copied from NWN:EE
+
+2021-01-24 footstepsounds.2da
+       * Copied from NWN:EE
+
+2021-01-24 ranges.2da
+       * Copied from NWN:EE
+
+2021-01-24 creaturespeed.2da
+       * Copied from NWN:EE
+
+2021-01-23 race_feat_thrikreen.2da
+       * Created, empty.
+
+2021-01-23 race_feat_hfgiant.2da
+       * Created, empty.
+
+2021-01-23 appearance.2da
+       * Copied appearance.2da from NWN:EE
+
+2021-01-23 racialtypes.2da
+       * Added new headers for NWN::EE compatibility: ExtraFeatsAtFirstLevel,
+       ExtraSkillPointsPerLevel, FirstLevelSkillPointsMultiplier, AbilitiesPointBuyNumber, NormalFeatEveryNthLevel, NumberNormalFeatsEveryNthLevel, SkillPointModifierAbility
+       * Copied all information from NWN racialtypes.2da to these columns
+       * Added HalfGiant, appearance set to half-orc, favored class to fighter, CRmodifier to 1 and namegentable to human.
+       * Added ThriKreen, appearance set to drider, favored class to fighter, CRmodifier to 1 and namegentable to gnome.
+
+2021-01-23 race_feat_gnome.2da
+       * Copied race_feat_gnome.2da from NWN:EE
+
+2021-01-23 race_feat_human.2da
+       * Copied race_feat_human.2da from NWN:EE 
+
+2021-01-23 Dark sun 2da Hak Change Log.txt
+       * Moved the log file to the parent directory
+
+2021-01-12  classes.2da
+        * Added new headers for NWN:EE compatibility StatGainTable, MemorizesSpells, SpellbookRestricted, PickDomains, PickSchool, LearnScroll, Arcane, ASF, SpellcastingAbil, SpellTableColumn, CLMultiplier, MinCastingLevel, MinAssociateLevel, CanCastSpontaneously
+        * Added all information from NWN:EE classes.2da to these columns
+
+2021-01-12 baseitems.2da
+        * Adden new headers for NWN:EE compatibility: WeaponFocusFeat, EpicWeaponFocusFeat, WeaponSpecializationFeat, EpicWeaponSpecializationFeat, WeaponImprovedCriticalFeat, EpicWeaponOverwhelmingCriticalFeat, EpicWeaponDevastatingCriticalFeat, WeaponOfChoiceFeat
+        * Added all information from NWN:EE baseitems.2da to these columns
+
+2021-01-12 cls_stat_dradis.2da
+        * Copied this file from NWN:EE as it was required as a StatGainTable
+
+2021-01-12 cls_stat_palema.2da
+        * Copied this file from NWN:EE as it was required as a StatGainTable
+
+2019-08-22  race_hforc.2da
+		* Muls have no racial abilities (feats)
+
+2019-08-22  race_feat_hfelf.2da
+		* Only remaining ability is Darkvision.
+
+2019-08-22  race_feat_half.2da
+		* Abilities are now only Good aim, Hardiness vs. Spells, Skill affinity (Move silently), Skill focus (Hide), Skill focus (Move silently), Small, and Stealthy.
+2019-08-22  race_feat_elf.2da
+		* Abilities are now only Darkvision, Skill affinity (Move silently), Skill focus (Hide), Skill focus (Move silently), and Stealthy.
+
+2019-08-22  race_feat_dwarf.2da
+		* Abilities are now only Darkvision, Hardiness to Poisons, and Hardiness to Spells.
+
+2019-08-22  racialtypes.2da
+		* Gnomes no longer a PC race
+		* Half-Orcs are now Muls [UPDATE TLK]
+		* Ability modifiers per Dark Sun rule.
+
+2019-07-20  fx_light_clr.mdl - works best in EE with Symphony's HDR Contrast Shader Override (https://neverwintervault.org/project/nwnee/hakpak/original-hakpak/hdr-contrast-shader-override)
+		* Human vision is now 100% black
+		* Low-light vision is now 30' bright white
+		* Darkvision is now 60' bright white
+		* Ultravision is now 60' bright white
+		* 5m light is now 10' (fire beetle glands)
+		* 10m light is now 20' (torch, light cantrip)
+		* 15m light is now 30' (oil lantern)
+		* 20m light is now 60' (continual light)
+		NB: There is no need for candlelight on Athas as it is so hot that candles melt. Also, oil lanterns work well because it never gets cold enough for the oil to congeal.
+
+2019-07-08  encumbrance.2da
+		* NWN 'unemcumbered' is now equal to AD&D2 'unemcumbered'
+		* NWN 'encumbered' is now equal to AD&D2 'heavy encumbrance'
+
+2019-05-31  classes.2da
+		* Barbarians no longer allowed for PCs.
+		* Bards now use Rogue attack table; SkillPointBase changed from 4 to 3; Spellcasting disabled.
+		* Clerics now use the Priest attack table; SkillPointBase changed from 2 to 1.
+		* Druids now use the Priest attack table; SkillPointBase changed from 4 to 1.
+		* Fighters now use the Warrior attack table; SkillPointBase changed from 2 to 1. [Bug Fix] Fighters can now take any alignment/intent.
+		* Monks are no longer allowed for PCs.
+		* Paladins are no longer allowed for PCs.
+		* Rangers now use the Warrior attack table; SkillPointBase changed from 4 to 3. Alignment restricted to Any/Good.
+		* Rogues now use the Rogue attack table; NAME NEEDS TO CHANGE TO THIEF
+		* Sorcerers no longer allowed for PCs.
+		* Wizards now use the Wizard attack table. SkillPointBase changed from 2 to 1. NAME NEEDS TO CHANGE TO MAGE
+		* All monsters now get a d8 for their Hit Die and use the Cls_Attk_1 for attacks.
+		* Commoners now use the Wizard attack table.
+		* All prestige classes are no longer allowed for PCs.
+
+2019-06-06  feat.2da
+		* Weapon Focus now requires a BAB +3 and 3 levels of fighter class.
+		* Weapon Focus (unarmed strike) has no class requirements but requires a BAB of +3 or greater.
+		* All weapon focus & weapon specialization require weapon proficiency (martial).
+		* [Bug Fix] Weapon Specialization no longer has a BAB or fighter level 4 requirement. This will be controlled through cls_feat_fight.2da. The reason is so associates can acquire weapon specialization. Henchmen will need weapon focus assigned manually.
+		* Expertise has all prerequisites removed so that it can be granted to warriors upon level 11 (BAB +10)
+		* Dodge has all prerequisites removed so that it can be easily accessible to warriors
+		* Mounted Archery no longer has Mounted Combat as a prerequisite since there is no AC bonus from riding in AD&D 2nd Edition.
+		* No feats are now available to all classes by default except for Skill Focus (concentration, heal, persuade, set trap, spot, craft trap, craft armor, craft weapon, bluff, & intimidate), horse menu, dm tools, and player tools.
+		* [Bug Fix] Several feats had the wrong Toolset filter assigned
+		* [Bug Fix, AI] Several feats had the wrong or no Category assigned which resulted in creatures pausing because they couldn't activate a passive feat or ignoring certain feats altogether.
+
+2019-06-06  skills.2da
+		* Disable Trap now has an armor check penalty and no longer available to all classes by default.
+		* Heal can no longer be used untrained.
+		* Lore can no longer be used untrained.
+		* Open Locks is now subject to an armor check penalty and is no longer available to all classes by default.
+		* Parry no longer has an armor check penalty.
+		* Pick Pocket is no longer available to all classes by default.
+		* Spellcraft is no longer available to all classes by default.
+		* Tumble is no longer available to all classes by default.
+		* Craft Trap is now subject to an armor check penalty.
+		* Craft Armor & Craft Weapon can no longer be used untrained and are now subject to armor checks.
+
+2019-05-31  cls_feat_fight
+		* Bonus Feats: Armor (all), Knockdown, Shield, Two weapon fighting, Weapon proficiency martial & simple, horse menu, and at 11th level Expertise.
+		* Class Feats: Weapon specialization (melee martial & simple) and weapon focus (ranged martial & simple), Dodge
+		* Class & Character feats: Weapon focus (melee martial & simple), Improved Parry, Skill focus (discipline, parry, craft armor, & craft weapon), Blind fight, and Combat archery.
+		* Character only feats: Skill Focus (concentration, heal, hide, listen, move silently, persuade, search, set trap, spot, appraise, bluff, & intimidate).
+
+2019-05-31  baseitems.2da
+		* Bastard Sword feat changed from exotic to martial
+		* Morningstar feat changed from simple to exotic
+		* Rapier feat changed from martial to exotic
+		* Whip feat changed from exotic to martial
+
+2019-05-31  armor.2da
+		* Dexterity bonus changed to +6 (Dex 25) for all armor
+		* AC check changed to reflect minimum penalities per the PHB, Ranger's, & Bard's Handbooks. NB: The builder will have to make adjustments for different skills and armor types.
+		* Weight changed to PHB
+		* Cost changed to PHB. NB: Builder will have to manually increase cost for ring mail, scale male, brigadine, etc.
+		* AC 9 added per the PHB. MISSING Description and BaseItemStatRef tlk entries.
+
+
+2019-05-31  cls_skill_rang
+		* Class Skills: Animal empathy, Discipline, Hide, Listen, Move silently, Parry, Search, Spot, Appraise, Craft armor, Craft weapon, and Ride.
+		* Cross Class Skills: Concentration, Heal, Persuade, Set trap, Craft trap, Bluff, and Intimidate.
+
+2019-05-31  cls_spgn_rang
+		* Spells follow AD&D 2nd Edition Player's Handbook, e.g. spells start at 8th level, no 4th level spells, and level ends at 20.
+
+2019-05-31  cls_feat_rang
+		* Bonus Feats: Armor (all), Improved two weapon fighting, Knockdown, Shield proficiency, Martial & Simple weapons, Trackless step, Dual wield, Horse menu, Animal Companion (10th level), and Expertise (11th level).
+		* Class Feats: Favored Enemy
+		* Class & Character feats: None
+		* Character only feats: Improved parry, Skill Focus (Animal empathy, Concentration, Discipline, Heal, Hide, Listen, Move silently, Parry, Persuade, Search, Set trap, Spot, Appraise, Craft trap, Craft armor, Craft Weapon, Bluff, & Intimidate), Blind fight, and Mounted archery.
+
+2019-05-31  cls_bfeat_*
+		* Fighters get a bonus feat at 3rd level and every 3 levels after that
+		* Rangers get a bonus feat at 1st level
+		* All other classes get no bonus feats
+
+2019-05-18  cls_atk_1
+		* BAB changed to equal level/hit dice all the way up to 60.
+
+2019-05-18  cls_atk_pri, cls_atk_rog, cls_atk_war, & cls_atk_wiz
+		* Base Attack Bonus caps at level 20 or less.
+
+2019-05-18  exptable.2da
+		* Levels are capped at 20
+
+2019-05-16  cls_skill_fight
+		* Class Skills: Discipline, Parry, Appraise, Craft armor, Craft weapon, and Ride.
+		* Cross-Class Skills: Concentration, Hide, Listen, Move silently, Persuade, Search, Set trap, Spot, Craft trap, Bluff, and Intimidate.
+
+
+2019-05-04  cls_spgn_wiz
+		* Spells per day as per AD&D 2nd Edition Players Handbook. "0" for when NWN assigns a spell but AD&D 2e does not. This is because NWN expects a spell there and will not level-up correctly without it.
+
