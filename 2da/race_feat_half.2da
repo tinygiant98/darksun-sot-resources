@@ -1,10 +1,10 @@
 2DA V2.0
 
      FeatLabel                          FeatIndex
-178  FEAT_SKILL_FOCUS_HIDE              178
-181  FEAT_SKILL_FOCUS_MOVE_SILENTLY     181
-230  FEAT_HARDINESS_VERSUS_SPELLS       230
-247  FEAT_SKILL_AFFINITY_MOVE_SILENTLY  247
-250  FEAT_GOOD_AIM                      250
-375  Small                              375
-387  FEAT_STEALTHY                      387
+0    FEAT_SKILL_FOCUS_HIDE              178
+1    FEAT_SKILL_FOCUS_MOVE_SILENTLY     181
+2    FEAT_HARDINESS_VERSUS_SPELLS       230
+3    FEAT_SKILL_AFFINITY_MOVE_SILENTLY  247
+4    FEAT_GOOD_AIM                      250
+5    Small                              375
+6    FEAT_STEALTHY                      387
