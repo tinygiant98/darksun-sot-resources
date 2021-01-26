@@ -1,3 +1,15 @@
+2020-01-26 race_feat_elf
+      * set row ids to row number
+
+2020-01-26 race_feat_half
+      * set row ids to row number
+
+2020-01-26 race_heat_dwarf.2da
+       * set row ids to row number
+
+2020-01-26 race_heat_hfelf.2da
+       * set row ids to row number
+
 2020-01-25 placeableobjsnds.2da
        * copied from NWN:EE
 
