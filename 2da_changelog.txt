@@ -1,10 +1,34 @@
-2020-01-25 placeableobjsnds.2da
+2021-01-28 spells.2da
+      * Corrected empty for ConjSoundVFX on row 736, 776, 777, 778, 779, 780, 783, 784, 786, 787
+
+2021-01-28 categories.2da
+      * Copied from NWN:EE
+
+2021-01-28 masterfeats.2da
+      * Copied from NWN:EE
+
+2021-01-28 feat.2da
+      * Corrected empty for icon on row 899 and 1031 
+
+2021-01-26 race_feat_elf.2da
+      * set row ids to row number
+
+2021-01-26 race_feat_half.2da
+      * set row ids to row number
+
+2021-01-26 race_heat_dwarf.2da
+       * set row ids to row number
+
+2021-01-26 race_heat_hfelf.2da
+       * set row ids to row number
+
+2021-01-25 placeableobjsnds.2da
        * copied from NWN:EE
 
-2020-01-25 lightcolor.2da
+2021-01-25 lightcolor.2da
        * copied from NWN:EE
 
-2020-01-25 bodybag.2da
+2021-01-25 bodybag.2da
        * checked the Name column, set to something sensable
 
 2021-01-25 placeables.2da
