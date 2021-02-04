@@ -1,3 +1,20 @@
+2021-02-04 racialtypes.2da
+      * Updated Name, ConverName, ConverNameLower, Description and Biograpy to original (copied from NWN:EE) for Dwarf, Elf, Halfling, Halfelf, Mul, Human, Dragon, Shapechanger
+      * Updated Name, ConverName, ConverNameLower, Description and Biograpy to custom tlk file  for Mul, Halg-Giant and Thri-Kreen
+
+2021-02-04 appearance.2da
+      * Reset STRING_REF to original (copied 0 - 870 from NWN)
+      * Updated STRING_REF for 871-873 to custom tlk file (+16,777,216)
+
+2021-02-04 placeables.2da
+      * Reset StrRef to original (copied contents from NWN:EE)
+
+2021-02-04 bodybag.2da
+      * Reset Name to original (copied contents from NWN:EE)
+
+2021-01-31 packages.2da
+      * Copied from NWN:EE
+
 2021-01-28 spells.2da
       * Corrected empty for ConjSoundVFX on row 736, 776, 777, 778, 779, 780, 783, 784, 786, 787
 
