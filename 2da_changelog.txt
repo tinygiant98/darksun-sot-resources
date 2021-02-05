@@ -1,3 +1,10 @@
+2021-02-05 racialtypes.2da
+      * Changed StrAdjust DexAdjust, IntAdjust, ChaAdjust, WisAdjust, ConAdjust to reflect minumum requirements + adjustment for each race
+      * Retracted extra points required for the minimal requirements from AbilitiesPointBuyNumber
+      * Blanked out humans
+      * Moved mul to 32 to avoid problems with hard-coded stuff
+      * Blanked out (5) and reset Abrev to Ho (Half-orc)
+
 2021-02-04 racialtypes.2da
       * Updated Name, ConverName, ConverNameLower, Description and Biograpy to original (copied from NWN:EE) for Dwarf, Elf, Halfling, Halfelf, Mul, Human, Dragon, Shapechanger
       * Updated Name, ConverName, ConverNameLower, Description and Biograpy to custom tlk file  for Mul, Halg-Giant and Thri-Kreen
