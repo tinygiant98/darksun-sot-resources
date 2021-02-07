@@ -1,3 +1,272 @@
+2021-02-07 cls_pres_bard.2da
+      * copied from cls_pres_def.2da
+      * removed RACE elf
+
+2021-02-07 cls_bfeat_temp.2da
+      * copied rom cls_bfeat_cler.2da
+
+2021-02-07 cls_feat_temp.2da
+      * copied from cls_feat_cler.2da
+
+2021-02-07 cls_pres_temp.2da
+      * copied from cls_pres_def.2da
+      * Added RACE dwarf
+
+2021-02-07 cls_savthr_temp.2da
+      * copied from cls_safthr_cler.2da
+
+2021-02-07 cls_skill_temp.2da
+      * copied from cls_skill_cler.2da
+
+2021-02-07 cls_spgn_temp.2da
+      * copied from cls_spgn_cler.2da
+
+2021-02-07 cls_pres_dru.2da
+      * copied from cls_pres_rang.2da
+      * removed RACE elf
+      * added RACE mul
+
+2021-02-07 cls_pres_illu.2da
+      * copied from cls_pres_def.2da
+      * added RACE halfling
+
+2021-02-07 cls_savthr_illu.2da
+      * copied from cls_savthr_wiz.2da
+
+2021-02-07 cls_skill_illu.2da
+      * copied from cls_skill_wiz.2da
+
+2021-02-07 cls_spgn_illu.2da
+      * copied from cls_spgn_wiz.2da
+
+2021-02-07 cls_feat_illu.2da
+      * copied from cls_feat_wiz.2da
+
+2021-02-07 cls_bfeat_illu.2da
+      * copied from cls_bfeat_wiz.2da
+
+2021-02-07 cls_pres_pres.2da
+      * copied from cls_pres_def.2da
+
+2021-02-07 cls_savthr_pres.2da
+      * copied from cls_savthr_wiz.2da
+
+2021-02-07 cls_skill_pres.2da
+      * copied from cls_skill_wiz.2da
+
+2021-02-07 cls_spgn_pres.2da
+      * copied from cls_spgn_wiz.2da
+
+2021-02-07 cls_feat_pres.2da
+      * copied from cls_feat_wiz.2da
+
+2021-02-07 cls_bfeat_pres.2da
+      * copied from cls_bfeat_wiz.2da
+
+2021-02-07 cls_pres_rang.2da
+      * Copied from cls_pres_def.2da
+      * set RACE to elf, half-elf, human, halfling or thri-kreen
+
+2021-02-07 classes.2da
+      * Set Ranger PreReqTable to CLS_PRES_RANG
+      * Set Druid PreReqTable to CLS_PRES_DRU
+      * Set Bard PreReqTable to CLS_PRES_BARD
+      * Added Preserver (44)
+      * Added Illusionist (45)
+      * Added Templar (46)
+
+2021-02-07 cls_stat_dradis.2da
+      * removed
+
+2021-02-07 cls_stat_palema.2da
+      * removed
+
+2021-02-07 cls_spgn_rang.2da
+      * Added headers SpellLevel5, SpellLevel6, SpellLevel7, SpellLevel8, SpellLevel9, all blank
+
+2021-02-07 cls_feat_wiz.2da
+      * set row ids to row number
+
+2021-02-07 cls_skill_wiz.2da
+      * set row ids to row number
+
+2021-02-07 cls_feat_rog.2da
+      * set row ids to row number
+
+2021-02-07 cls_skill_rog.2da
+      * set row ids to row number
+
+2021-02-07 cls_feat_rang.2da
+      * set row ids to row number
+
+2021-02-07 cls_skill_rang.2da
+      * set row ids to row number
+
+2021-02-07 cls_feat_fight.2da
+      * set row ids to row number
+
+2021-02-07 cls_feat_druid.2da
+      * set row ids to row number
+
+2021-02-07 cls_feat_bard.2da
+      * set row ids to row number
+
+2021-02-07 cls_skill_bard.2da
+      * set row ids to row number
+
+2021-02-06 cls_skill_glad.2da
+      * copied from cls_skill_fight.2da
+
+2021-02-06 cls_savthr_glad.2da
+      * copied from cls_savthr_fight.2da
+
+2021-02-06 cls_feat_glad.2da
+      * copied from cls_feat_fight.2da
+      * set row ids to row number
+
+2021-02-06 cls_bfeat_glad.2da
+      * copied from cls_bfeat_fight.2da
+
+2021-02-06 cls_skill_fight
+      * set row ids to row number
+
+2021-02-06 cls_feat_aber.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_outs.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_dru.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_rog.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_sorc.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_cons.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_bfeat_sorc.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_bfeat_bard.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_atk_3.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_bard.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_cler.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_sorc.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_fey.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_drag.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_comm.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_gian.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_feat_crea.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_rang.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_bard.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_wiz.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_wild.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_monk.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_fight.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_savthr_cler.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_skill_dru.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_skill_sorc.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_skill_cler.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_bfeat_barb.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_spgn_cler.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_spgn_dru.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_spgn_sorc.2da
+      * Copied from NWN:EE
+
+2021-02-06 cls_spkn_sorc.2da
+      * Copied from NWN:EE
+
+2021-02-06 racialtypes.2da
+      * Put humans back in (6)
+
+2021-02-06 cls_spgn_def.2da
+      * Copied from cls_spgn_wiz.2da
+      * set RACE to elf, half-elf or human
+
+2021-02-06 cls_bfeat_def.2da
+      * Copied from cls_bfeat_wiz.2da
+
+2021-02-06 cls_savthr_def.2da
+      * Copied from NWN::EE cls_savthr_wiz.2da
+
+2021-02-06 CLF_FEAT_DEF.2da
+      * Copied from CLS_FEAT_WIZ.2da
+      * set row ids to row number
+
+2021-02-06 CLS_SKILL_DEF.2da
+      * Copied from CLS_SKILL_WIZ.2da
+      * set row ids to row number
+
+2021-02-06 classes.2da
+      * Spaced out Name, Plural, Lower, Description to make space for mod strrefs.
+      * Added defiler (42)
+      * Added gladiator (43)
+      * Deleted Barbarian, but kept Constant as a placeholder.
+      * Deleted Monk, but kept Constant as a placeholder.
+      * Deleted Paladin, but kept Constant as a placeholder.
+      * Deleted Shadowdancer, but kept Constant as a placeholder.
+      * Deleted Harper, but kept Constant as a placeholder.
+      * Deleted Arcane_Archer, but kept Constant as a placeholder.
+      * Deleted Assassin, but kept Constant as a placeholder.
+      * Deleted Blackguard, but kept Constant as a placeholder.
+      * Deleted Champion_Torm, but kept Constant as a placeholder.
+      * Deleted WeaponMaster, but kept Constant as a placeholder.
+      * Deleted Pale_Master, but kept Constant as a placeholder.
+      * Deleted Shifter, but kept Constant as a placeholder.
+      * Deleted Dwarven_Defender, but kept Constant as a placeholder.
+      * Deleted Dragon_Disciple, but kept Constant as a placeholder.
+      * Deleted Purple_Dragon_Knight, but kept Constant as a placeholder.
+
 2021-02-05 racialtypes.2da
       * Changed StrAdjust DexAdjust, IntAdjust, ChaAdjust, WisAdjust, ConAdjust to reflect minumum requirements + adjustment for each race
       * Retracted extra points required for the minimal requirements from AbilitiesPointBuyNumber
