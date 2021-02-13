@@ -3,6 +3,8 @@
 
 2021-02-13 cls_feat_glad.2da
       * Replaced all with the contents of cls_feat_barb.2da
+      * Profided weapon_focus_* on level 1
+      * Made weapon_specialisation_* available on any level
 
 2021-02-13 cls_feat_fight.2da
       * Set GrantedOnLevel to -1 for all the weapon_focus_* and weapon_specialisation_* feats
