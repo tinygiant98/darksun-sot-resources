@@ -95,3 +95,5 @@
 91    FEAT_WEAPON_FOCUS_WAR_HAMMER                    115        1     -1              0
 92    FEAT_WEAPON_FOCUS_HEAVY_FLAIL                   116        1     -1              0
 93    FEAT_WEAPON_FOCUS_BASTARD_SWORD                 123        1     -1              0
+94    FEAT_WEAPON_FOCUS_WHIP                          993        1     -1              0
+95    FEAT_WEAPON_FOCUS_TRIDENT                       1072       1     -1              0
