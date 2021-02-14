@@ -1,3 +1,24 @@
+2021-02-14 cls_spgn_rang.2da
+      * Addapted to 2nd ed. rules
+
+2021-02-14 cls_pres_glad.2da
+      * Created
+      * Set CLASSNOT for ranger and gladiator
+      * Added scriptvar X1_AllowFightr
+
+2021-02-14 cls_pres_rang.2da
+      * Set CLASSNOT for fighter and gladiator
+      * Added scriptvar X1_AllowRanger
+
+2021-02-14 classes.2da
+      * Set Gladiator PreReqTable to CLS_PRES_GLAD
+      * Set Gladiator PreReqTable to CLS_PRES_FIGHT
+
+2021-02-14 cls_pres_glad.2da
+      * Created
+      * Set CLASSNOT for all other classes
+      * Added scriptvar X1_AllowGldtr
+
 2021-02-13 cls_feat_rang.2da
       * Added all weapons_focus_* feats from cls_feat_fight.2da
 
