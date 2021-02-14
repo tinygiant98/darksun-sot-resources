@@ -1,0 +1,7 @@
+2DA V2.0                                                        
+                                                                
+           LABEL         ReqType   ReqParam1        ReqParam2   
+0          Fighter       CLASSNOT  4                ****     
+1          Ranger        CLASSNOT  7                ****     
+2          Gladiator     CLASSNOT  43               ****     
+3          ScriptVar     VAR       X1_AllowFightr    0        
