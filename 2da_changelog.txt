@@ -1,3 +1,50 @@
+2021-02-14 cls_spgn_rang.2da
+      * Addapted to 2nd ed. rules
+
+2021-02-14 cls_pres_glad.2da
+      * Created
+      * Set CLASSNOT for ranger and gladiator
+      * Added scriptvar X1_AllowFightr
+
+2021-02-14 cls_pres_rang.2da
+      * Set CLASSNOT for fighter and gladiator
+      * Added scriptvar X1_AllowRanger
+
+2021-02-14 classes.2da
+      * Set Gladiator PreReqTable to CLS_PRES_GLAD
+      * Set Gladiator PreReqTable to CLS_PRES_FIGHT
+
+2021-02-14 cls_pres_glad.2da
+      * Created
+      * Set CLASSNOT for all other classes
+      * Added scriptvar X1_AllowGldtr
+
+2021-02-13 cls_feat_rang.2da
+      * Added all weapons_focus_* feats from cls_feat_fight.2da
+
+2021-02-13 cls_feat_glad.2da
+      * Replaced all with the contents of cls_feat_barb.2da
+      * Profided weapon_focus_* on level 1
+      * Made weapon_specialisation_* available on any level
+
+2021-02-13 cls_feat_fight.2da
+      * Set GrantedOnLevel to -1 for all the weapon_focus_* and weapon_specialisation_* feats
+
+2021-02-13 cls_bfeat_ran.2da
+      * Set 4 bonus feats at level 1
+      * Set 1 bonus feat at level 3, 6, 9, 12, 15, 18
+
+2021-02-13 cls_bfeat_glad.2da
+      * Set 4 bonus feats at level 1
+      * Set 1 bonus feat at level 3, 6, 9, 12, 15, 18
+
+2021-02-13 cls_bfeat_fight.2da
+      * Set 4 bonus feats at level 1
+      * Set 1 bonus feat at level 3, 6, 9, 12, 15, 18
+
+2021-02-13 racialtypes.2da
+      * Blanked out ExtraFeatsAtFirstLevel, NormalFeatEveryNthLevel and NumberNormalFeatsEveryNthLevel for all races
+
 2021-02-07 cls_pres_bard.2da
       * copied from cls_pres_def.2da
       * removed RACE elf

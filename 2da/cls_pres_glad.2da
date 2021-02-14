@@ -1,0 +1,14 @@
+2DA V2.0                                                        
+                                                                
+           LABEL         ReqType   ReqParam1        ReqParam2   
+0          Bard          CLASSNOT  1                ****     
+1          Cleric        CLASSNOT  2                ****     
+2          Druid         CLASSNOT  3                ****     
+3          Fighter       CLASSNOT  4                ****     
+4          Ranger        CLASSNOT  7                ****     
+5          Rogue         CLASSNOT  8                ****     
+6          Defiler       CLASSNOT  42               ****     
+7          Preserver     CLASSNOT  44               ****     
+8          Illusionist   CLASSNOT  45               ****     
+9          Templar       CLASSNOT  46               ****     
+10         ScriptVar     VAR       X1_AllowGldtr    0        
