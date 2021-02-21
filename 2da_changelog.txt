@@ -1,3 +1,19 @@
+2021-02-21 cls_feat_rang.2da
+      * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
+      * added weapon focus available from level 1 for all remaining weapons
+      * removed blind fight, improved parry, expertiese, improved two weapon fighting, knock down
+      * removed skill focus *
+      * added weapon proficiency exotic
+
+2021-02-21 cls_feat_fight.2da
+      * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
+      * added weapon focus available from level 1 for all remaining weapons
+      * added weapon specialization available from level 1 for all remaining weapons
+      * removed knockdown, expertise, dodge, improved parry
+      * added weapon proficiency exotic granted at level 1
+      * added ambidexterity granted at level 1
+      * removed skill focus *
+
 2021-02-21 cls_feat_glad.2da
       * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
       * removed all epic feats
@@ -6,16 +22,12 @@
       * added weapon specialization available from level 1 for all remaining weapons
       * ordered weapon_focus_* for easier maintenance
       * ordered weapon_specialisation_* for easier maintenance
-      * provided weapon proficience exotic granted at level 1
-      * Two Weapon Fighting granted at level 1
-      * Ambidexterity granted at level 1
-      * Disarm granted at level 1
-      * Called shot granted at level 1
-      * Removed BarbEndurance (Barbarian Fast Movement)
-      * Removed UncannyDodge*
-      * Removed DamageReduction*
-      * Removed BarbarianRage*
-      * Removed DefArrow
+      * added weapon proficience exotic granted at level 1
+      * added Two Weapon Fighting granted at level 1
+      * added Ambidexterity granted at level 1
+      * added Disarm granted at level 1
+      * added Called shot granted at level 1
+      * Removed BarbEndurance (Barbarian Fast Movement), Uncanny Dodge, Damage Reduction *, Barbarian Rage * Defensive Arrow
 
 2021-02-14 cls_spgn_rang.2da
       * Addapted to 2nd ed. rules
