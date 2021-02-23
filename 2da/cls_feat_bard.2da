@@ -1,15 +1,15 @@
 2DA V2.0
 
-      FeatLabel                             FeatIndex  List   GrantedOnLevel   OnMenu   
-0     ArmProfLgt                            3          3      1                0        
-1     ArmProfMed                            4          3      1                0        
-2     WeapProfSim                           46         3      1                0        
-3     WeapProfMar                           45         3      1                0        
-4     WeapProfEx                            44         3      1                0        
-5     BardSongs                             257        3      1                1        
-6     FEAT_SCRIBE_SCROLL                    945        0      1                0        
-7     FEAT_BREW_POTION                      944        0      3                0        
-8     FEAT_CRAFT_WAND                       946        0      5                0        
+      FeatLabel                             FeatIndex  List   GrantedOnLevel   OnMenu
+0     ArmProfLgt                            3          3      1                0
+1     ArmProfMed                            4          3      1                0
+2     FEAT_ARMOR_PROFICIENCY_HEAVY          2          3      1                0
+3     WeapProfSim                           46         3      1                0
+4     WeapProfMar                           45         3      1                0
+5     WeapProfEx                            44         3      1                0
+6     FEAT_SCRIBE_SCROLL                    945        0      1                0
+7     FEAT_BREW_POTION                      944        0      3                0
+8     FEAT_CRAFT_WAND                       946        0      5                0
 9     FEAT_WEAPON_FOCUS_BASTARD_SWORD       123        2     -1                0
 10    FEAT_WEAPON_FOCUS_BATTLE_AXE          110        2     -1                0
 11    FEAT_WEAPON_FOCUS_CLUB                43         2     -1                0
@@ -60,3 +60,5 @@
 56    PLAYER_TOOL_08                        1113       1     99                1
 57    PLAYER_TOOL_09                        1114       1     99                1
 58    PLAYER_TOOL_10                        1115       1     99                1
+59     BardSongs                             257        3      1                1        
+
