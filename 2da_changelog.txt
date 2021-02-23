@@ -1,3 +1,35 @@
+2021-02-23 cls_pres_fighter.2da
+      * fix column alignment
+
+2021-02-23 cls_pres_bard.2da
+      * Add classnot rogue (8)
+      * Add classnot gladiator (43)
+      * Add ScriptVar X1_AllowBard
+
+2021-02-23 cls_spgn_bard.2da
+      * Created
+      * Set to 2da rules
+
+2021-02-23 classes.2da
+      * set SpellGainTable for bard to cls_spgn_bard
+
+2021-02-23 cls_feat_bard.2da
+      * added weapon focus available from level 1 for all weapons except unarmed strike
+      * added armor proficiency heavy
+      * set weapon proficiency martial to be granted at level 1
+      * set weapon proficiency exotic to be granted at level 1
+      * removed shield proficiency, all epic feats, bard song 2 to bard song 20, two weapon fighting, ambidexterity, (greater) spell focus, quicken, arcaane defence, greater spell penetration, deflect arrow, curse song, extra music, lingering song, skill focus (magic defice), bardic knowledge
+
+2021-02-23 cls_spkg_bard.2da
+      * corrected NumSpellLevels
+
+2021-02-23 cls_bfeat_bard.2da
+      * 2 bonus feats at level 1
+      * 1 bonus feats every 4 levels
+
+2021-02-23 cls_bfeat_rang
+      * added one bonus feat at level 2 to choose a favoured enemy
+
 2021-02-21 cls_feat_rang.2da
       * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
       * added weapon focus available from level 1 for all remaining weapons
