@@ -1,5 +1,49 @@
+2021-02-24 cls_skill_rog.2da
+      * Renamed to lower case
+
+2021-02-24 cls_savthr_rog.2da
+      * Removed
+
+2021-02-24 cls_feat_rog.2da
+      * Removed
+
+2021-02-24 cls_bfeat_rog.2da
+      * Removed
+
+2021-02-24 cls_savthr_thief.2da
+      * Copied from cls_skill_rog.2da
+
+2021-02-24 cls_savthr_thief.2da
+      * Copied from  cls_savthr_rog.2da
+
+2021-02-24 cls_feat_thief.2da
+      * Copied from  cls_feat_rog.2da
+      * Added weapon focus for all weapons
+      * Added weapon preficiency simple, weapon proficiency martial, weapon proficiency exotic gained at level 1
+      * Removed weapon proficiency rogue, disarm, dodge, improved parry, improved two weapon fighting, knockdown, two weapon fighting, weapon finesse, skill focus *, blind fight, dirty fighting
+      * Relabeled sneakattack* to FEAT_SNEAK_ATTACK_*
+
+2021-02-24 cls_bfeat_thief.2da
+      * Copied from  cls_bfeat_rog.2da
+      * 2 bonus feats at level 1
+      * 1 bonus feats every 4 levels
+
+2021-02-24 cls_pres_thief.2da
+      * Created
+      * Add Classnot Bard (1)
+      * Add classnot gladiator (43)
+      * Add ScriptVar X1_AllowThief
+
+2021-02-24 classes.2da
+      * Relabel rogue as thief
+      * Set thief PreReqTable to CLS_PRES_THIEF
+      * Set thief FeatsTable to CLS_FEAT_THIEF
+      * Set thief SavingThrowTable to CLS_SAVTHR_THIEF
+      * Set thief SkillsTable to CLS_SKILL_THIEF
+      * Set thief BonusFeatsTable to CLS_BFEAT_THIEF
+
 2021-02-23 cls_pres_fighter.2da
-      * fix column alignment
+      * Fix column alignment
 
 2021-02-23 cls_pres_bard.2da
       * Add classnot rogue (8)
@@ -11,17 +55,17 @@
       * Set to 2da rules
 
 2021-02-23 classes.2da
-      * set SpellGainTable for bard to cls_spgn_bard
+      * Set SpellGainTable for bard to cls_spgn_bard
 
 2021-02-23 cls_feat_bard.2da
-      * added weapon focus available from level 1 for all weapons except unarmed strike
-      * added armor proficiency heavy
-      * set weapon proficiency martial to be granted at level 1
-      * set weapon proficiency exotic to be granted at level 1
-      * removed shield proficiency, all epic feats, bard song 2 to bard song 20, two weapon fighting, ambidexterity, (greater) spell focus, quicken, arcaane defence, greater spell penetration, deflect arrow, curse song, extra music, lingering song, skill focus (magic defice), bardic knowledge
+      * Added weapon focus available from level 1 for all weapons except unarmed strike
+      * Added armor proficiency heavy
+      * Set weapon proficiency martial to be granted at level 1
+      * Set weapon proficiency exotic to be granted at level 1
+      * Eemoved shield proficiency, all epic feats, bard song 2 to bard song 20, two weapon fighting, ambidexterity, (greater) spell focus, quicken, arcaane defence, greater spell penetration, deflect arrow, curse song, extra music, lingering song, skill focus (magic defice), bardic knowledge
 
 2021-02-23 cls_spkg_bard.2da
-      * corrected NumSpellLevels
+      * Corrected NumSpellLevels
 
 2021-02-23 cls_bfeat_bard.2da
       * 2 bonus feats at level 1
@@ -32,33 +76,33 @@
 
 2021-02-21 cls_feat_rang.2da
       * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
-      * added weapon focus available from level 1 for all remaining weapons
-      * removed blind fight, improved parry, expertiese, improved two weapon fighting, knock down
-      * removed skill focus *
-      * added weapon proficiency exotic
+      * Added weapon focus available from level 1 for all remaining weapons
+      * Removed blind fight, improved parry, expertiese, improved two weapon fighting, knock down
+      * Removed skill focus *
+      * Added weapon proficiency exotic
 
 2021-02-21 cls_feat_fight.2da
       * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
-      * added weapon focus available from level 1 for all remaining weapons
-      * added weapon specialization available from level 1 for all remaining weapons
-      * removed knockdown, expertise, dodge, improved parry
-      * added weapon proficiency exotic granted at level 1
-      * added ambidexterity granted at level 1
-      * removed skill focus *
+      * Added weapon focus available from level 1 for all remaining weapons
+      * Added weapon specialization available from level 1 for all remaining weapons
+      * Removed knockdown, expertise, dodge, improved parry
+      * Added weapon proficiency exotic granted at level 1
+      * Added ambidexterity granted at level 1
+      * Removed skill focus *
 
 2021-02-21 cls_feat_glad.2da
       * ! It is not recommended to remove / reorder 2da entries, however no references to any rows in cls_feat_* are made (I think).
-      * removed all epic feats
-      * added ArmPfofHvy, granted on level 1
-      * added weapon focus granted at level 1 for all remaining weapons
-      * added weapon specialization available from level 1 for all remaining weapons
-      * ordered weapon_focus_* for easier maintenance
-      * ordered weapon_specialisation_* for easier maintenance
-      * added weapon proficience exotic granted at level 1
-      * added Two Weapon Fighting granted at level 1
-      * added Ambidexterity granted at level 1
-      * added Disarm granted at level 1
-      * added Called shot granted at level 1
+      * Removed all epic feats
+      * Added ArmPfofHvy, granted on level 1
+      * Added weapon focus granted at level 1 for all remaining weapons
+      * Added weapon specialization available from level 1 for all remaining weapons
+      * Ordered weapon_focus_* for easier maintenance
+      * Ordered weapon_specialisation_* for easier maintenance
+      * Added weapon proficience exotic granted at level 1
+      * Added Two Weapon Fighting granted at level 1
+      * Added Ambidexterity granted at level 1
+      * Added Disarm granted at level 1
+      * Added Called shot granted at level 1
       * Removed BarbEndurance (Barbarian Fast Movement), Uncanny Dodge, Damage Reduction *, Barbarian Rage * Defensive Arrow
 
 2021-02-14 cls_spgn_rang.2da
