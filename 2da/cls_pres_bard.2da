@@ -4,3 +4,6 @@
 0          Human         RACE      6                ****     
 1          Elf           RACE      1                ****     
 2          Half-elf      RACE      4                ****     
+3          Rogue         CLASSNOT  8                ****     
+4          Gladiator     CLASSNOT  43               ****     
+5          ScriptVar     VAR       X1_AllowBard     0        

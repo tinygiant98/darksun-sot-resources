@@ -1,0 +1,6 @@
+2DA V2.0                                                        
+                                                                
+           LABEL         ReqType   ReqParam1        ReqParam2   
+0          Bard          CLASSNOT  1                ****     
+1          Gladiator     CLASSNOT  43               ****     
+2          ScriptVar     VAR       X1_AllowThief    0        

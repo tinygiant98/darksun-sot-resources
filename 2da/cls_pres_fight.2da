@@ -4,4 +4,4 @@
 0          Fighter       CLASSNOT  4                ****     
 1          Ranger        CLASSNOT  7                ****     
 2          Gladiator     CLASSNOT  43               ****     
-3          ScriptVar     VAR       X1_AllowFightr    0        
+3          ScriptVar     VAR       X1_AllowFightr   0        
