@@ -1,0 +1,21 @@
+2DA V2.0
+
+    SkillLabel      SkillIndex  ClassSkill
+0   AnimalEmpathy   0           0
+1   Appraise        20          1
+2   CraftArmor      25          0
+3   CraftWeapon     26          0
+4   DisableTrap     2           1
+5   Hide            5           1
+6   Listen          6           1
+7   Lore            7           1
+8   MoveSilently    8           1
+9   OpenLock        9           1
+10  Perform         11          0
+11  PickPocket      13          1
+12  Ride            27          0
+13  Search          14          1
+14  SetTrap         15          1
+15  Spellcraft      16          0
+16  Spot            17          0
+17  Tumble          21          1

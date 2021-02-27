@@ -87,3 +87,4 @@
 83    FEAT_WEAPON_FOCUS_UNARMED_STRIKE                100        2     -1              0
 84    FEAT_WEAPON_FOCUS_WAR_HAMMER                    115        2     -1              0
 85    FEAT_WEAPON_FOCUS_WHIP                          993        2     -1              0
+86    FEAT_SKILL_FOCUS_ANIMAL_EMPATHY                 36         3     1               0

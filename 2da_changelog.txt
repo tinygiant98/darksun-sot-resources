@@ -1,3 +1,77 @@
+2021-02-27 cls_bfeat_illu.2da
+     * removed
+
+2021-02-27 cls_feat_illu.2da
+     * removed
+
+2021-02-27 cls_pres_illu.2da
+     * removed
+
+2021-02-27 cls_savthr_illu.2da
+     * removed
+
+2021-02-27 cls_skill_illu.2da
+     * removed
+
+2021-02-27 cls_spgn_illu.2da
+     * removed
+
+2021-02-27 classes.2da
+     * blanked out illusionist
+
+2021-02-27 cls_skill_thief
+      * Added AnimalEpathy and Perform as non-class ckills
+      * Added Appraise and Lore as class ckills
+      * Removed Concentration, Discipline, Heal, Parry, Persuade, Spot, Taunt, UseMagicDevice, Craft trap, Bluff, Intimidate 
+
+2021-02-27 cls_skill_bard
+      * Renamed to lowercase
+      * Added DisableTrap and Open lock as class-skills
+      * Added AnimalEpathy and Spellcraft as non-class ckills
+      * Removed Concentration, Discipline, Heal, Parry, Persuade, Taunt, UseMagicDevice, Craft trap, Bluff, Intimidate 
+      * Set Craft armor, Craft Weapon, Perform, Ride as non-class skill
+      * Set Hide, Move silently, search, settrap as class skill 
+
+2021-02-27 cls_skill_rang.2da
+      * Renamed to lowercase
+      * Added Perform, Lore, Spellcraft as non-class skills
+      * Removed Concentration, Discipline, Heal, Listen, Parry, Persuade, Search, Appraise, CraftTrap, Bluff, Intimidate
+      * Set Settrap, as class skill
+      * Set animalempathy, ride as non-class skill
+
+2021-02-27 cls_skill_glad.2da
+      * Renamed to lowercase
+      * Added AnimalEmpathy and Perform as non-class skills
+      * Removed Concentration, Discipline, Hide, Listen, MoveSilently, Parry, Persuade, Search, Appraise, CraftTrap, Bluff, Intimidate
+      * Set Settrap, spot as class skill
+      * Set animalempathy, ride as non-class skill
+
+2021-02-27 cls_skill_glad.2da
+      * Renamed to lowercase
+      * Added AnimalEmpathy and Perform as non-class skills
+      * Removed Concentration, Discipline, Hide, Listen, MoveSilently, Parry, Persuade, Search, Appraise, CraftTrap, Bluff, Intimidate
+      * Set Settrap, spot as class skill
+      * Set ride as non-class skill
+
+2021-02-27 cls_skill_fight.2da
+      * Renamed to lowercase
+      * Added AnimalEmpathy and Perform as non-class skills
+      * Removed Concentration, Discipline, Hide, Listen, MoveSilently, Parry, Persuade, Search, Appraise, CraftTrap, Bluff, Intimidate
+      * Set Settrap, spot as class skill
+      * Set ride as non-class skill
+
+2021-02-27 cls_feat_bard.2da
+      * Added two weapon fighting and ambidexterity gained at level 1.
+      * Removed scribe scroll, brew potion and craft wand
+      * Formatting
+
+2021-02-27 cls_feat_thief.2da
+      * Added two weapon fighting and ambidexterity gained at level 1.
+
+2021-02-27 cls_feat_rang.2da
+      * Renamed to lowercase
+      * Added skill focus animal empathy gained at level 1
+
 2021-02-24 cls_skill_rog.2da
       * Renamed to lower case
 
