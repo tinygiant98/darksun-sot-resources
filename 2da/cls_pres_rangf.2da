@@ -1,0 +1,14 @@
+2DA V2.0                                                        
+                                                                
+           LABEL         ReqType   ReqParam1        ReqParam2   
+0          Human         RACE      6                ****     
+1          Mul           RACE      32               ****     
+2          Half-elf      RACE      4                ****     
+3          Halfling      RACE      3                ****     
+4          Thri-Kreen    RACE      31               ****     
+5          Fighter       CLASSNOT  4                ****     
+6          Gladiator     CLASSNOT  43               ****     
+7          RangerEarth   CLASSNOT  7                ****     
+8          RangerAir     CLASSNOT  47               ****     
+9          RangerWater   CLASSNOT  49               ****     
+10         ScriptVar     VAR       X1_AllowRanger   0        
