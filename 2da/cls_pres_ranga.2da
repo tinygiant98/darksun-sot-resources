@@ -8,4 +8,7 @@
 4          Thri-Kreen    RACE      31               ****     
 5          Fighter       CLASSNOT  4                ****     
 6          Gladiator     CLASSNOT  43               ****     
-7          ScriptVar     VAR       X1_AllowRanger   0        
+7          RangerEarth   CLASSNOT  7                ****     
+8          RangerFire    CLASSNOT  48               ****     
+9          RangerWater   CLASSNOT  49               ****     
+10         ScriptVar     VAR       X1_AllowRanger   0        
