@@ -1,3 +1,61 @@
+2021-03-14 spells.2da
+    * Renamed column Ranger to RangerAir
+    * Blanked out all fields for RangerAir
+    * Set RangerAir for Call_ligthning (11) to 3
+    * Added column RangerEarth
+    * Set RangerEarth for EarthQuake (426) to 7
+    * Added column RangerFire
+    * Set RangerFire for FlameWeapon (542) to 2
+    * Set RangerFire for Flame_Strike (61) to 5
+    * Set RangerFire for Wall_of_fire (191) to 5
+    * Set RangerFire for Fire_Storm (57) to 7
+    * Added column RangerWater
+
+2021-03-14 cls_pres_rangw.2da
+    * Copied cls_pres_rangf.2da
+    * Removed classnot RangerWater(49)
+    * Added classnot RangerFire (48)
+
+2021-03-14 cls_pres_rangf.2da
+    * Copied cls_pres_ranga.2da
+    * Removed classnot RangerFire(48)
+    * Added classnot RangerAir (47)
+
+2021-03-14 cls_pres_ranga.2da
+    * Copied cls_pres_ranga.2da
+    * Removed classnot RangerAir (47)
+    * Added classnot RangerEarth (7)
+
+2021-03-14 cls_pres_rang.2da
+    * Renamed to cls_pres_range.2da
+    * Added classnot RangerAir (47)
+    * Added classnot RangerFire (48)
+    * Added classnot RangerWater (49)
+
+2021-03-14 classes.2da
+    * Set label for Ranger to RangerEarth
+    * Set constant for RangerEarth to CLASS_TYPE_RANGER_EARTH
+    * Set PreReqTable for RangerEarth to CLS_PRES_RANGE
+    * Set SpellTableColumn for RangerEarth to RangerEarth
+    * Added RangerAir (47), copied from RangerEarth
+    * Set constant for RangerAir to CLASS_TYPE_RANGER_AIR
+    * Set PreReqTable for RangerAir to CLS_PRES_RANGA
+    * Set SpellTableColumn for RangerAir to RangerAir
+    * Added RangerFire (48), copied from RangerEarth
+    * Set constant for RangerFire to CLASS_TYPE_RANGER_FIRE
+    * Set PreReqTable for RangerFire to CLS_PRES_RANGF
+    * Set SpellTableColumn for RangerFire to RangerFire
+    * Added RangerWater (49), copied from RangerEarth
+    * Set constant for RangerWater to CLASS_TYPE_RANGER_WATER
+    * Set PreReqTable for RangerWater to CLS_PRES_RANGW
+    * Set SpellTableColumn for RangerWater to RangerWater
+
+2021-03-13 cls_spgn_bard.2da
+     * Removed
+
+2021-03-13 classes.2da
+     * Bard blanked out SpellGainTable, MemorizesSpells,  SpellbookRestricted, PickDomains, PickSchool, LearnScroll, ASF, SpellcastingAbil, SpellTableColumn, CLMultiplier, MinCastingLevel, MinAssociateLevel, CanCastSpontaneously
+
 2021-02-27 cls_bfeat_illu.2da
      * removed
 
