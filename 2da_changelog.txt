@@ -1,7 +1,86 @@
+2021-03-15 cls_spgn_cler.2da
+    * set to 2e rules
+
+2021-03-15 spells.2da
+    * Renamed column Cleric to ClericAir
+    * Blanked out all values for ClericAir
+    * Set ClericAir for Call_lightning (11) to 3
+    * Added column ClericEarth
+    * Set ClericEarth for EarthQuake (426) to 7
+    * Added column ClericFire
+    * Set ClericFire for FlameWeapon (542) to 2
+    * Set ClericFire for Flame_Strike (61) to 5
+    * Set ClericFire for Wall_of_fire (191) to 5
+    * Set ClericFire for Fire_Storm (57) to 7
+    * Added column ClericWater
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Bless (6), Entangle (53), Light (100), Remove fear (148), Sanctuary (154) to 1
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Aid (1), Barkskin (3), Charm person or animal (17), Find traps (377), Hold Person (83), Silence (163) to 2
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Dispel Magic (41), Glyph of Warding (549), Hold Animal (81, Prayer (133), Remove Curse (146), Remove Paralysis (149), Spike Growth (454) to 3
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Cure serious wounds (35), Neutralize poison (126) to 4
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Cure critical wounds (31), Raise Dead (142), True Seeing (186) to 5
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Blade Barrier (5), Heal (79) to 6
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Confusion (26), Creeping Doom (364), Gate (63), Regenerate (374), Restoration (152), Resurrection (153) to 7
+
+2021-03-15 cls_pres_clerf.2da
+    * copied from cls_pres_cleara.2da
+    * removed classnot ClericWater (52)
+    * set classnot ClericAir (50)
+
+2021-03-15 cls_pres_clerf.2da
+    * copied from cls_pres_cleara.2da
+    * removed classnot ClericFire (51)
+    * set classnot ClericAir (50)
+
+2021-03-15 cls_pres_clere.2da
+    * copied from cls_pres_cleara.2da
+    * removed classnot ClericEarth (2)
+    * set classnot ClericAir (50)
+
+2021-03-15 cls_pres_clera.2da
+    * copied from cls_pres_temp.2da
+    * removed all race prerequisits
+    * set classnot Gladiator (43)
+    * set classnot ClericEarth (2)
+    * set classnot ClericFire (51)
+    * set classnot ClericWater (52)
+    * set classnot Druid (3)
+    * set classnot Templar (46)
+
+2021-03-15 classes.2da
+    * Set label for Cleric to ClericEarth
+    * Set PreReqTable for ClericEarth to CLS_PRES_CLERA
+    * Set constant for ClericEarth to CLASS_TYPE_CLERIC_EARTH
+    * Set PreReqTable for ClericEarth to CLS_PRES_CLERE
+    * Set SpellTableColumn for ClericEarth to RangerEarth
+    * Added ClericAir (50), copied from ClericEarth
+    * Set constant for ClericAir to CLASS_TYPE_CLERIC_AIR
+    * Set PreReqTable for ClericAir to CLS_PRES_CLERA
+    * Set SpellTableColumn for ClericAir to RangerAir
+    * Added ClericFire (51), copied from ClericEarth
+    * Set constant for ClericFire to CLASS_TYPE_CLERIC_FIRE
+    * Set PreReqTable for ClericFire to CLS_PRES_CLERF
+    * Set SpellTableColumn for ClericFire to ClericFire
+    * Added ClericWater 52), copied from ClericEarth
+    * Set constant for ClericWater to CLASS_TYPE_CLERIC_WATER
+    * Set PreReqTable for ClericWater to CLS_PRES_CLERW
+    * Set SpellTableColumn for ClericWater to ClericWater
+
+2021-03-15 cls_pres_fight.2da
+    * Set label for Ranger (7) to RangerEarth
+    * Added classnot RangerAir (47)
+    * Added classnot RangerFire (48)
+    * Added classnot RangerWater (49)
+
+2021-03-15 cls_pres_glad.2da
+    * Set label for Ranger (7) to RangerEarth
+    * Added classnot RangerAir (47)
+    * Added classnot RangerFire (48)
+    * Added classnot RangerWater (49)
+
 2021-03-14 spells.2da
     * Renamed column Ranger to RangerAir
     * Blanked out all fields for RangerAir
-    * Set RangerAir for Call_ligthning (11) to 3
+    * Set RangerAir for Call_lightning (11) to 3
     * Added column RangerEarth
     * Set RangerEarth for EarthQuake (426) to 7
     * Added column RangerFire
