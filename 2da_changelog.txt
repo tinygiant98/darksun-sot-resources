@@ -1,3 +1,54 @@
+2021-03-18 cls_skill_temp.2da
+    * Remove Concentration, DisableTrap, Discipline, Hide, Listen, MoveSilently, OpenLock, Parry, Persuade, PickPocket, Search, Spot, Taunt, CraftTrap, Bluff, Intimidate, CraftWeapon, CraftArmore
+    * Add AnimalEmpathy, Appraise, Perform as non-class skill
+
+2021-03-18 cls_feat_cler.2da
+    * Add all weapon proficiencies
+    * Set WeapProfMar, WeapProfEx granted on level 1
+    * Removed DefArrow, Quicken, TwoWeap, Ambidex, DivineMight, DivneShield, GrSpllFs*, Scribe Scroll, Brew Postion, Craft Wand, Epic Spell Focus *, Epic Automatic *, Epic Planar Turning, Epic Improved Combat Casting, Epic Armor Skin, Epic Spell Penetration, Epic Cleric, Epic Great Wisdom *, Epic Spell *, Epic Blinding Speed, ExtTrun, Spell focus *, TurnUndead
+    * Blanked out line 5 for what is too be honest lazyness
+
+2021-03-18 cls_bfeat_temp
+    * Set to 2 bonus feats at level 1
+    * Set to 1 bonus feat every 4 levels (4, 8, ..)
+
+2021-03-18 cls_pres_temp
+    * set classnot Gladiator (43)
+    * set classnot ClericEarth (2)
+    * set classnot ClericAir (50)
+    * set classnot ClericFire (51)
+    * set classnot ClericWater (52)
+    * set classnot Druid (3)
+
+2021-03-18 cls_spgn_temp.2da
+    * Set to DarkSun rules
+
+2021-03-18 spells.2da
+    * Renamed colum Paladin to Templar
+    * Blanked out Templar for Bull Strength (9), Cure_Light_Wounds (32) Cure_Minor_Wounds (33) Cure_Moderate_Wounds (34), Death_Ward(38), Endure_Elements (50), Freedom_of_Movement (62), Remove_Blindness_and_Deafness (145), Resist_Elements (150), Resistance (151), Virtue (189), PROTECTION_FROM_ALIGNMENT (321), Magic_Circle_against_Alignment (322), Eagle_Splendor (354), Divine_Favor (414) AuraOfGlory (429), Deafening_Clang (536), Bless_Weapon (537), Holy_Sword (538), Magic_Weapon (344) Greater_Magic_Weapon (345) 
+    * Set Templar for Bless (6), Entangle (53), Remove fear (148), Sanctuary (154) to 1
+    * Set Templar for Barkskin (3), Charm person or animal (17), Find traps (377), Silence (163) to 2
+    * Set Templar for Glyph of Warding (549), Hold Animal (81, Remove Curse (146), Remove Paralysis (149), Spike Growth (454) to 3
+    * Set Templar for Raise Dead (142), True Seeing (186) Flame_Strike (61), Wall_of_Fire (191) to 5
+    * Set Templar for Blade Barrier (5), Heal (79) to 6
+    * Set Templar for Confusion (26), Creeping Doom (364), Gate (63), Regenerate (374), Restoration (152), Resurrection (153) Fire_Storm (57) Earthquake (426) to 7
+
+2021-03-18 classes.2da
+    * Set SpellColumTable for Templar to Templar
+
+2021-03-18 cls_feat_cler.2da
+    * Add all weapon proficiencies
+    * Set WeapProfMar, WeapProfEx granted on level 1
+    * Removed DefArrow, Quicken, TwoWeap, Ambidex, DivineMight, DivneShield, GrSpllFs*, Scribe Scroll, Brew Postion, Craft Wand, Epic Spell Focus *, Epic Automatic *, Epic Planar Turning, Epic Improved Combat Casting, Epic Armor Skin, Epic Spell Penetration, Epic Cleric, Epic Great Wisdom *, Epic Spell *, Epic Blinding Speed, ExtTrun, Spell focus *
+
+2021-03-18 cls_bfeat_cler
+    * Set to 2 bonus feats at level 1
+    * Set to 1 bonus feat every 4 levels (4, 8, ..)
+
+2021-03-18 cls_skill_cler.2da
+    * Removed Concetration, DisableTrap, Discipline, Hide, Listen, MoveSilently, OpenLock, Parry, Persuade, PickPocket, Search, SetTrap, Spot, Taunt, Appraise, Tumble, CrafTrrap, Bluff, Intimidate, CraftWeapon, CraftArmore
+    * Added AnmalEmpathy, Perform as non-class skills.
+
 2021-03-15 cls_spgn_cler.2da
     * set to 2e rules
 
