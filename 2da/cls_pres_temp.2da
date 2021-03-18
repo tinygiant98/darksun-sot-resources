@@ -5,9 +5,9 @@
 1          Elf           RACE      1                ****     
 2          Half-elf      RACE      4                ****     
 3          Dwarf         RACE      0                ****     
-0          Gladiator     CLASSNOT  43               ****     
-1          ClericEarth   CLASSNOT  2                ****     
-5          ClericAir     CLASSNOT  50               ****     
-2          ClericFire    CLASSNOT  51               ****     
-3          ClericWater   CLASSNOT  52               ****     
-4          Druid         CLASSNOT  3                ****     
+4          Gladiator     CLASSNOT  43               ****     
+5          ClericEarth   CLASSNOT  2                ****     
+6          ClericAir     CLASSNOT  50               ****     
+7          ClericFire    CLASSNOT  51               ****     
+8          ClericWater   CLASSNOT  52               ****     
+9          Druid         CLASSNOT  3                ****     
