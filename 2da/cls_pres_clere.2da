@@ -1,0 +1,9 @@
+2DA V2.0                                                        
+                                                                
+           LABEL         ReqType   ReqParam1        ReqParam2   
+0          Gladiator     CLASSNOT  43               ****     
+1          ClericAir     CLASSNOT  50               ****     
+2          ClericFire    CLASSNOT  51               ****     
+3          ClericWater   CLASSNOT  52               ****     
+4          Druid         CLASSNOT  3                ****     
+5          Templar       CLASSNOT  46               ****     

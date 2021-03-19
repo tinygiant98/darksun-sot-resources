@@ -1,7 +1,173 @@
+2021-03-19 spells.2da
+    * Set Templar for Entangle to 1
+    * Set Druid like Templar
+
+2021-03-19 cls_spgn_dru.2da
+    * Copied contents from cls_spgn_cler.2da
+    * Stopped spell progression after level 15
+
+2021-03-19 cls_skill_druid.2da
+    * Set AnimalEmpathy, CraftArmor,  CraftWeaponas non-class skille
+    * Add Perform as non-class skill
+    * Remove Concentration, DisableTrap, Discipline, Hide, Listen, MoveSilently, OpenLock, Parry, Persuade, PickPocket, Search, Taunt, Appraise, Tumble, CraftTrap, Bluff, Intimidate, 
+
+2021-03-19 cls_feat_dru.2da
+    * Removed FEAT_ARMOR_PROFICIENCY_LIGHT, FEAT_ARMOR_PROFICIENCY_MEDIUM, FEAT_WEAPON_PROFICIENCY_DRUID, WildShape4, WildShape5, WildShape6
+    * Added WeapProfMar, WeapProfSim, WeapProfEx granted on level 1
+    * Set FEAT_WOODLAND_STRIDE to GrantedOnLevel to 3
+    * Set Wild_shape, Wildshape2 and Wildshape3 GrantedOnLevel to 7
+    * Added FEAT_EPIC_DRUID_INFINITE_WILDSHAPE GrantedOnLevel 16
+    * Set FEAT_VENOM_IMMUNITY to GrantedOnLevel 16
+    * Removed FEAT_NATURE_SENSE, FEAT_ANIMAL_COMPANION, FEAT_TRACKLESS_STEP, FEAT_RESIST_NATURES_LURE, FEAT_BREW_POTION, FEAT_RESIST_POISON, FEAT_ELEMENTAL_SHAPE *, FEAT_ALERTNESS, FEAT_AMBIDEXTERITY FEAT_CALLED_SHOT FEAT_CLEAVE FEAT_DISARM FEAT_DODGE  FEAT_GREAT_FORTITUDE FEAT_IMPROVED_* FEAT_IRON_WILL FEAT_KNOCKDOWN FEAT_LIGHTNING_REFLEXES FEAT_MOBILITY FEAT_POWER_ATTACK FEAT_SKILL_FOCUS_* FEAT_SPELL_FOCUS_* FEAT_SPELL_PENETRATION FEAT_TOUGHNESS FEAT_TWO_WEAPON_FIGHTING FEAT_WEAPON_FINESSE FEAT_IMPROVED_INITIATIVE FEAT_BLOODED FEAT_BULLHEADED FEAT_COURTEOUS_MAGOCRACY FEAT_RESIST_POISON FEAT_SILVER_PALM FEAT_SNAKE_BLOOD FEAT_STEALTHY FEAT_STRONG_SOUL FEAT_EXPERTISE FEAT_IMPROVED_EXPERTISE FEAT_GREAT_CLEAVE FEAT_SPRING_ATTACK FEAT_GREATER_SPELL_FOCUS_* FEAT_GREATER_SPELL_PENETRATION FEAT_THUG FEAT_ARCANE_DEFENSE_* FEAT_DIRTY_FIGHTING FEAT_RESIST_* FEAT_WHIRLWIND_ATTACK FEAT_IMPROVED_WHIRLWIND FEAT_MOUNTED_ARCHERY
+    * Added weapon_focus_*
+
+2021-03-19 cls_bfeat_dru.2da
+    * Set to 2 bonus feats at level 1
+    * Set to 1 bonus feat every 4 levels (4, 8, ..)
+
+2021-03-19 cls_skill_dru.2da
+    * set classnot Gladiator (43)
+    * set classnot ClericEarth (2)
+    * set classnot ClericAir (50)
+    * set classnot ClericFire (51)
+    * set classnot ClericWater (52)
+    * set classnot Templar (46)
+
+2021-03-18 cls_skill_temp.2da
+    * Remove Concentration, DisableTrap, Discipline, Hide, Listen, MoveSilently, OpenLock, Parry, Persuade, PickPocket, Search, Spot, Taunt, CraftTrap, Bluff, Intimidate, CraftWeapon, CraftArmore
+    * Add AnimalEmpathy, Appraise, Perform as non-class skill
+
+2021-03-18 cls_feat_cler.2da
+    * Add all weapon proficiencies
+    * Set WeapProfMar, WeapProfEx granted on level 1
+    * Removed DefArrow, Quicken, TwoWeap, Ambidex, DivineMight, DivneShield, GrSpllFs*, Scribe Scroll, Brew Postion, Craft Wand, Epic Spell Focus *, Epic Automatic *, Epic Planar Turning, Epic Improved Combat Casting, Epic Armor Skin, Epic Spell Penetration, Epic Cleric, Epic Great Wisdom *, Epic Spell *, Epic Blinding Speed, ExtTrun, Spell focus *, TurnUndead
+    * Blanked out line 5 for what is too be honest lazyness
+
+2021-03-18 cls_bfeat_temp
+    * Set to 2 bonus feats at level 1
+    * Set to 1 bonus feat every 4 levels (4, 8, ..)
+
+2021-03-18 cls_pres_temp
+    * set classnot Gladiator (43)
+    * set classnot ClericEarth (2)
+    * set classnot ClericAir (50)
+    * set classnot ClericFire (51)
+    * set classnot ClericWater (52)
+    * set classnot Druid (3)
+
+2021-03-18 cls_spgn_temp.2da
+    * Set to DarkSun rules
+
+2021-03-18 spells.2da
+    * Renamed colum Paladin to Templar
+    * Blanked out Templar for Bull Strength (9), Cure_Light_Wounds (32) Cure_Minor_Wounds (33) Cure_Moderate_Wounds (34), Death_Ward(38), Endure_Elements (50), Freedom_of_Movement (62), Remove_Blindness_and_Deafness (145), Resist_Elements (150), Resistance (151), Virtue (189), PROTECTION_FROM_ALIGNMENT (321), Magic_Circle_against_Alignment (322), Eagle_Splendor (354), Divine_Favor (414) AuraOfGlory (429), Deafening_Clang (536), Bless_Weapon (537), Holy_Sword (538), Magic_Weapon (344) Greater_Magic_Weapon (345) 
+    * Set Templar for Bless (6), Entangle (53), Remove fear (148), Sanctuary (154) to 1
+    * Set Templar for Barkskin (3), Charm person or animal (17), Find traps (377), Silence (163) to 2
+    * Set Templar for Glyph of Warding (549), Hold Animal (81, Remove Curse (146), Remove Paralysis (149), Spike Growth (454) to 3
+    * Set Templar for  to 4
+    * Set Templar for Raise Dead (142), True Seeing (186) Flame_Strike (61), Wall_of_Fire (191) to 5
+    * Set Templar for Blade Barrier (5), Heal (79) to 6
+    * Set Templar for Confusion (26), Creeping Doom (364), Gate (63), Regenerate (374), Restoration (152), Resurrection (153) Fire_Storm (57) Earthquake (426) to 7
+
+2021-03-18 classes.2da
+    * Set SpellColumTable for Templar to Templar
+
+2021-03-18 cls_feat_cler.2da
+    * Add all weapon proficiencies
+    * Set WeapProfMar, WeapProfEx granted on level 1
+    * Removed DefArrow, Quicken, TwoWeap, Ambidex, DivineMight, DivneShield, GrSpllFs*, Scribe Scroll, Brew Postion, Craft Wand, Epic Spell Focus *, Epic Automatic *, Epic Planar Turning, Epic Improved Combat Casting, Epic Armor Skin, Epic Spell Penetration, Epic Cleric, Epic Great Wisdom *, Epic Spell *, Epic Blinding Speed, ExtTrun, Spell focus *
+
+2021-03-18 cls_bfeat_cler
+    * Set to 2 bonus feats at level 1
+    * Set to 1 bonus feat every 4 levels (4, 8, ..)
+
+2021-03-18 cls_skill_cler.2da
+    * Removed Concetration, DisableTrap, Discipline, Hide, Listen, MoveSilently, OpenLock, Parry, Persuade, PickPocket, Search, SetTrap, Spot, Taunt, Appraise, Tumble, CrafTrrap, Bluff, Intimidate, CraftWeapon, CraftArmore
+    * Added AnmalEmpathy, Perform as non-class skills.
+
+2021-03-15 cls_spgn_cler.2da
+    * set to 2e rules
+
+2021-03-15 spells.2da
+    * Renamed column Cleric to ClericAir
+    * Blanked out all values for ClericAir
+    * Set ClericAir for Call_lightning (11) to 3
+    * Added column ClericEarth
+    * Set ClericEarth for EarthQuake (426) to 7
+    * Added column ClericFire
+    * Set ClericFire for FlameWeapon (542) to 2
+    * Set ClericFire for Flame_Strike (61) to 5
+    * Set ClericFire for Wall_of_fire (191) to 5
+    * Set ClericFire for Fire_Storm (57) to 7
+    * Added column ClericWater
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Bless (6), Entangle (53), Light (100), Remove fear (148), Sanctuary (154) to 1
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Aid (1), Barkskin (3), Charm person or animal (17), Find traps (377), Hold Person (83), Silence (163) to 2
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Dispel Magic (41), Glyph of Warding (549), Hold Animal (81, Prayer (133), Remove Curse (146), Remove Paralysis (149), Spike Growth (454) to 3
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Cure serious wounds (35), Neutralize poison (126) to 4
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Cure critical wounds (31), Raise Dead (142), True Seeing (186) to 5
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Blade Barrier (5), Heal (79) to 6
+    * Set ClericAir, ClericEarth, ClericFire, ClericWater for Confusion (26), Creeping Doom (364), Gate (63), Regenerate (374), Restoration (152), Resurrection (153) to 7
+
+2021-03-15 cls_pres_clerf.2da
+    * copied from cls_pres_cleara.2da
+    * removed classnot ClericWater (52)
+    * set classnot ClericAir (50)
+
+2021-03-15 cls_pres_clerf.2da
+    * copied from cls_pres_cleara.2da
+    * removed classnot ClericFire (51)
+    * set classnot ClericAir (50)
+
+2021-03-15 cls_pres_clere.2da
+    * copied from cls_pres_cleara.2da
+    * removed classnot ClericEarth (2)
+    * set classnot ClericAir (50)
+
+2021-03-15 cls_pres_clera.2da
+    * copied from cls_pres_temp.2da
+    * removed all race prerequisits
+    * set classnot Gladiator (43)
+    * set classnot ClericEarth (2)
+    * set classnot ClericFire (51)
+    * set classnot ClericWater (52)
+    * set classnot Druid (3)
+    * set classnot Templar (46)
+
+2021-03-15 classes.2da
+    * Set label for Cleric to ClericEarth
+    * Set PreReqTable for ClericEarth to CLS_PRES_CLERA
+    * Set constant for ClericEarth to CLASS_TYPE_CLERIC_EARTH
+    * Set PreReqTable for ClericEarth to CLS_PRES_CLERE
+    * Set SpellTableColumn for ClericEarth to RangerEarth
+    * Added ClericAir (50), copied from ClericEarth
+    * Set constant for ClericAir to CLASS_TYPE_CLERIC_AIR
+    * Set PreReqTable for ClericAir to CLS_PRES_CLERA
+    * Set SpellTableColumn for ClericAir to RangerAir
+    * Added ClericFire (51), copied from ClericEarth
+    * Set constant for ClericFire to CLASS_TYPE_CLERIC_FIRE
+    * Set PreReqTable for ClericFire to CLS_PRES_CLERF
+    * Set SpellTableColumn for ClericFire to ClericFire
+    * Added ClericWater 52), copied from ClericEarth
+    * Set constant for ClericWater to CLASS_TYPE_CLERIC_WATER
+    * Set PreReqTable for ClericWater to CLS_PRES_CLERW
+    * Set SpellTableColumn for ClericWater to ClericWater
+
+2021-03-15 cls_pres_fight.2da
+    * Set label for Ranger (7) to RangerEarth
+    * Added classnot RangerAir (47)
+    * Added classnot RangerFire (48)
+    * Added classnot RangerWater (49)
+
+2021-03-15 cls_pres_glad.2da
+    * Set label for Ranger (7) to RangerEarth
+    * Added classnot RangerAir (47)
+    * Added classnot RangerFire (48)
+    * Added classnot RangerWater (49)
+
 2021-03-14 spells.2da
     * Renamed column Ranger to RangerAir
     * Blanked out all fields for RangerAir
-    * Set RangerAir for Call_ligthning (11) to 3
+    * Set RangerAir for Call_lightning (11) to 3
     * Added column RangerEarth
     * Set RangerEarth for EarthQuake (426) to 7
     * Added column RangerFire

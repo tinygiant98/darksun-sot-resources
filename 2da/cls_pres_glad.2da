@@ -11,4 +11,7 @@
 7          Preserver     CLASSNOT  44               ****     
 8          Illusionist   CLASSNOT  45               ****     
 9          Templar       CLASSNOT  46               ****     
-10         ScriptVar     VAR       X1_AllowGldtr    0        
+10         RangerAir     CLASSNOT  47               ****     
+11         RangerFire    CLASSNOT  48               ****     
+12         RangerWater   CLASSNOT  49               ****     
+13         ScriptVar     VAR       X1_AllowGldtr    0        
