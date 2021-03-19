@@ -6,3 +6,9 @@
 2          Half-elf      RACE      4                ****     
 3          Halfling      RACE      3                ****     
 4          Thri-Kreen    RACE      31               ****     
+5          Gladiator     CLASSNOT  43               ****     
+6          ClericEarth   CLASSNOT  2                ****     
+7          ClericAir     CLASSNOT  50               ****     
+8          ClericFire    CLASSNOT  51               ****     
+9          ClericWater   CLASSNOT  52               ****     
+10         Templar       CLASSNOT  46               ****     
